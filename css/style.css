@@ -1,0 +1,175 @@
+
+  header, footer {
+    background: #581845;
+  }
+
+  header::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 2px;
+    /*position: fixed;*/
+    bottom: 0px;
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 42px;
+    color: #581845;
+    text-align: center;
+  }
+
+  h2 {
+    font: 200 100px/1.5 'Pacifico', Helvetica, sans-serif;
+    color: #581845;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.5), 7px 7px 0px rgba(0,0,0,0.05) 
+  }
+
+  h3 {
+    font-size: 40px;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
+  }
+
+  h4 {
+    font-size: 30px; 
+  }
+
+  body {
+    line-height: 1;
+    background-color: #DAF7A6;
+    font-family: arial; 
+    color: #581845;
+  }
+
+  html, body {
+    padding: 0;
+    margin: 0;
+  }
+
+  nav {
+    float: center;
+  }  
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding: 25px;
+  }
+
+  nav a {
+    color: #FFC300;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  nav a:hover {
+    color: #DAF7A6;  
+  }
+
+  form {
+    font: 10px;
+    text-align: left;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box;
+    margin-top: 2px;
+    margin-bottom: 12px;
+    resize: vertical;
+}
+
+  .images {
+    width: 50px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  .container {
+    width: 989px;
+    margin: 0 auto;
+    background-color: #DAF7A6;
+    padding-bottom: 0px;
+  }
+
+  .linksborder {
+    background-color: #581845;
+    width: 989px;
+    margin: 0 auto;
+  }
+
+  .links {
+    color: #FFC300;
+  }
+
+  .content {
+    width: 989px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  .pagetitle {
+    text-align: center;
+    margin-top: 5px;
+    color: #581845;
+    font-size: 48px;
+
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns:auto auto auto;
+    grid-gap: 10px;
+    /*background-color: #DAF7A6;*/
+    padding: 5px;
+  }
+
+  .grid-container > div {
+    background-color: #DAF7A6;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 28px;
+  }
+
+  .roll-container {
+    position: relative;
+    text-align: center;
+    color: #581845;
+    padding: 10px
+  }
+
+  .centered {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .form-container {
+    position: relative;
+    text-align: left;
+    text-align: top;
+    border-radius: 5px;
+    padding: 25px;
+    color: white;
+  }
+
+
+  .footer {
+    color: #FFC300;
+  }
+
